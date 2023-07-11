@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+/* .img{
+  width: 100%;
+} */
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primary-color {
+  color: rgb(229, 84, 115);
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e55473;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn:hover{
+  border: 1px solid #e55473;
+  background-color: white;
+  color: #e55473;
+  padding: 9px 17px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sub-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+.paragraph-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+/* header style starts */
+
+.header {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.nav-list {
+  gap: 30px;
+}
+
+.list-item a,
+.logo {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.list-item a:hover,
+.list-item a:focus {
+  color: rgb(229, 84, 115);
+}
+
+/* header style ends */
+
+/* banner style starts */
+
+.banner-container {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  padding-top: 50px;
+}
+
+.banner-img {
+  width: 500px;
+  height: 800px;
+  margin-left: 20px;
+}
+
+.heading-text {
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+
+/* banner style ends */
+
+/* feature section style start */
+
+.feature-section-text {
+  margin-top: 80px;
+}
+
+.feature-images {
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.feature-img-container {
+  width: 280px;
+  height: 380px;
+  border-radius: 300px 300px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.feature-img {
+  width: 230px;
+  /* height: 300px; */
+}
+
+.feature-images h3 {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin: 30px 0;
+}
+
+.bg-pink {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+
+.bg-green {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.bg-blue {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+
+.feature-text {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* feature section style end */
+
+/* service section style starts */
+
+.service-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 80px 0;
+  margin: 50px 0;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-img {
+  width: 80px;
+  height: 80px;
+}
+
+.service-container h3 {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+/* service section style end */
+
+/* sale section style starts */
+
+.sale-section {
+  background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sale-container {
+  justify-content: center;
+  gap: 50px;
+  padding: 100px 0;
+  margin: 50px 0;
+}
+
+.sale-text {
+  width: 40%;
+}
+
+/* sale section style end */
+
+/* instagram section style starts */
+
+.instagram-img {
+  width: 200px;
+}
+
+/* instagram section style end */
+
+/* subscribe section style starts */
+
+.subscribe-section {
+  margin: 80px 0;
+  background-image: url("./asset/bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 0;
+}
+
+.subscribe-section input {
+  padding: 10px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  width: 450px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+/* subscribe section style end */
+
+
+/* review section style starts */
+
+.review-container{
+  margin-bottom: 30px;
+}
+
+
+.review-header{
+  background-color: rgba(229, 84, 115, 0.10);
+  padding: 10px 0;
+}
+
+
+.reviews{
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.review{
+  width: 250px;
+  background-color: rgba(39, 39, 39, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
+}
+
+.name{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.email{
+  color: rgba(39, 39, 39, 0.9);
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.description{
+  font-size: 16px;
+}
+
+/* review section style end */
+
+
+/* footer section style starts */
+
+.footer {
+  background-color: #111010;
+  padding: 100px 0;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer small {
+  color: rgba(255, 255, 255, 0.4);
+}
